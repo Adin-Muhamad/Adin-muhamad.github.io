@@ -1,115 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <meta name="description" content="Portofolio Interaktif">
+    <title>Portofolio | Muhamad Syaefudin</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 <link rel="icon" href="https://static.cdnlogo.com/logos/m/26/minecraft.svg">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* Custom style for brighter theme */
-        body {
-            background-color: #f9fafb;
-            color: #333;
-        }
-        .jumbotron {
-            background-color: #e9f7f9;
-            color: #333;
-        }
-        .btn-primary {
-            background-color: #007bff;
-            border-color: #007bff;
-        }
-        .feature-icon {
-            font-size: 2.5rem;
-            color: #007bff;
-        }
-        .footer {
-            background-color: #e9f7f9;
-            color: #666;
-        }
-    </style>
 </head>
-<body>
 
-    <!-- Header Section -->
-    <header class="jumbotron text-center">
-        <h1 class="display-4">Hello, I'am Adin Muhamad</h1>
-        <p class="lead">Explore my projects, skills, and get in touch!</p>
-        <a href="#contact" class="btn btn-primary btn-lg">Contact Me</a>
+<body class="bg-gray-900 text-white font-sans leading-normal tracking-normal">
+    <!-- Navbar -->
+    <header class="bg-gray-800 p-4 fixed w-full top-0 z-50 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Muhamad Syaefudin</h1>
+            <nav class="space-x-6">
+                <a href="#about" class="hover:text-yellow-500 transition duration-300">About</a>
+                <a href="#projects" class="hover:text-yellow-500 transition duration-300">Projects</a>
+                <a href="#contact" class="hover:text-yellow-500 transition duration-300">Contact</a>
+            </nav>
+        </div>
     </header>
 
-    <!-- Features Section -->
-    <section id="features" class="container my-5">
-        <div class="row text-center">
-            <div class="col-md-4 mb-4">
-                <div class="feature-icon">
-                    <i class="fas fa-laptop-code"></i>
-                </div>
-                <h4>Web Development</h4>
-                <p>Specializing in responsive and dynamic web development.</p>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="feature-icon">
-                    <i class="fas fa-paint-brush"></i>
-                </div>
-                <h4>UI/UX Design</h4>
-                <p>Creating intuitive and visually appealing designs.</p>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="feature-icon">
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <h4>Digital Marketing</h4>
-                <p>Optimizing content for better engagement and growth.</p>
-            </div>
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-screen flex items-center justify-center" style="background-image: url('https://source.unsplash.com/1600x900/?workspace,technology');">
+        <div class="text-center px-6">
+            <h2 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-4">Hi, I'm Muhamad Syaefudin</h2>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8">Web Developer | Designer | Creator</p>
+            <a href="#projects" class="bg-yellow-500 text-gray-900 font-semibold py-2 px-4 rounded hover:bg-yellow-400 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">View My Work</a>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="container my-5">
-        <h2 class="text-center mb-4">About Me</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <p>Hi, I’m a passionate developer with expertise in front-end and back-end development. My goal is to create efficient, scalable, and user-friendly applications that provide an excellent user experience.</p>
-                <p>With a background in various tech projects and a love for learning new technologies, I’m constantly expanding my skill set to stay on top of industry trends.</p>
-            </div>
-            <div class="col-md-6">
-                <img src="image.png" alt="Profile Image" class="img-fluid rounded-circle">
+    <section id="about" class="container mx-auto py-20 px-6 text-center">
+        <h3 class="text-3xl font-semibold mb-6">About Me</h3>
+        <p class="text-lg leading-relaxed text-gray-400 max-w-3xl mx-auto">
+            I'm a passionate web developer with a knack for creating interactive and visually appealing websites. With experience in various tech stacks and a creative approach to problem-solving, I bring ideas to life on the web.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-800 py-20 px-6">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-semibold mb-6">My Projects</h3>
+            <div class="flex flex-wrap justify-center space-y-6 md:space-y-0 md:space-x-6">
+                <!-- Project Card 1 -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg transition transform hover:scale-105 hover:shadow-2xl duration-500">
+                    <img src="https://source.unsplash.com/300x200/?website" alt="Project 1" class="rounded mb-4">
+                    <h4 class="text-2xl font-semibold">Project One</h4>
+                    <p class="text-gray-400 mt-2">An amazing project that demonstrates my skills in web development.</p>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="bg-gray-700 p-6 rounded-lg shadow-lg transition transform hover:scale-105 hover:shadow-2xl duration-500">
+                    <img src="https://source.unsplash.com/300x200/?design" alt="Project 2" class="rounded mb-4">
+                    <h4 class="text-2xl font-semibold">Project Two</h4>
+                    <p class="text-gray-400 mt-2">A visually engaging and highly functional website.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container my-5">
-        <h2 class="text-center mb-4">Get in Touch</h2>
-        <form>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                </div>
-                <div class="form-group col-md-6">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-        </form>
+    <section id="contact" class="container mx-auto py-20 px-6 text-center">
+        <h3 class="text-3xl font-semibold mb-6">Get in Touch</h3>
+        <p class="text-lg text-gray-400 mb-6">I'd love to hear from you. Feel free to reach out for collaborations or just a friendly chat!</p>
+        <a href="mailto:adien.faqoth21@gmail.com" class="bg-yellow-500 text-gray-900 font-semibold py-2 px-6 rounded hover:bg-yellow-400 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">Say Hello</a>
     </section>
 
-    <!-- Footer Section -->
-    <footer class="footer text-center py-4">
-        <p>&copy; 2024 Adin Muhamad. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="bg-gray-800 p-6 text-center text-gray-400">
+        <p>&copy; 2024 Muhamad Syaefudin. All Rights Reserved.</p>
     </footer>
-
-    <!-- FontAwesome & Bootstrap JS -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
