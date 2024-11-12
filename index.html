@@ -6,12 +6,26 @@
     <title>Landing Page</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+<script>
+tailwind.config = {
+theme: {
+extend: {
+fontfamily: {
+sans: ['roboto', 'sans-serif']
+}
+}
+}
+</script>
+
+
+
 </head>
 <body class="bg-stone-50">
 
     <!-- Navbar -->
     <nav class="bg-stone-50 py-4 fixed w-full shadow-xl">
-           <div class="container px-2"> <h1 class="text-sky-400 pl-4 text-2xl font-bold drop-shadow-xl">Adin muhamad</h1> </div>
+           <div class="container px-2"> <h1 class="text-sky-400 pl-4 text-2xl font-bold drop-shadow-xl font-sans-roboto">Adin muhamad</h1> </div>
 <button class="container px-2"> <span class="text-sky-400 pl-4 text-2xl font-bold drop-shadow-xl"><i class="fa fa-bars" aria-hidden="true"></i></span></button>
     </nav>
 
