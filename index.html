@@ -23,7 +23,7 @@
         <div class="container mx-auto px-4">
             <h1 class="text-4xl font-extrabold mb-4">Welcome to Our Awesome Service</h1>
             <p class="text-xl mb-6">Your solution to everything you need. Easy, Fast, Reliable!</p>
-            <a href="#contact" class="bg-white text-blue-500 px-6 py-3 rounded-full text-lg hover:bg-blue-100 transition-all">Get Started</a>
+            <a id="hamburger" href="#contact" class="bg-white text-blue-500 px-6 py-3 rounded-full text-lg hover:bg-blue-100 transition-all">Get Started</a>
         </div>
     </section>
 
@@ -54,6 +54,21 @@
             <h2 class="text-3xl font-semibold mb-6">About Us</h2>
             <p class="text-xl text-gray-700 mb-8">We are a team of passionate individuals dedicated to providing top-notch solutions for your needs.</p>
             <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-600 transition-all">Contact Us</a>
+<!-- Desktop Navigation (Hidden on Mobile) -->
+<ul class="hidden md:flex space-x-8 text-white">
+    <li><a href="#" class="hover:text-gray-300">Home</a></li>
+    <li><a href="#" class="hover:text-gray-300">About</a></li>
+    <li><a href="#" class="hover:text-gray-300">Portfolio</a></li>
+    <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+</ul>
+
+<!-- Mobile Navigation (Visible on Mobile Only) -->
+<ul id="mobile-menu" class="md:hidden hidden flex flex-col space-y-2 bg-gray-700 p-4 text-white">
+    <li><a href="#" class="hover:text-gray-300">Home</a></li>
+    <li><a href="#" class="hover:text-gray-300">About</a></li>
+    <li><a href="#" class="hover:text-gray-300">Portfolio</a></li>
+    <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+</ul>
         </div>
     </section>
 
@@ -74,6 +89,15 @@
     <footer class="bg-blue-400 py-6 text-center text-white">
         <p>&copy; 2024 Adin-Muhamad. All Rights Reserved.</p>
     </footer>
+<script>
 
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobile-menu');
+
+hamburger.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+});
+
+</script>
 </body>
 </html>
