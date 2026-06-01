@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const H1: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className = '' }) => (
-  <h1 className={`text-3xl sm:text-4xl font-extrabold text-slate-800 ${className}`}>{children}</h1>
+  <h1 className={`text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 via-sky-500 to-violet-500 ${className}`}>{children}</h1>
 )
 
 export const H2: React.FC<{ children: React.ReactNode; className?: string }> = ({ children, className = '' }) => (

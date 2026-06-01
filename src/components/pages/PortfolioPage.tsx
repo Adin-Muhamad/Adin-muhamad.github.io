@@ -1,6 +1,6 @@
 import React from 'react'
 import MainLayout from '../templates/MainLayout'
-import { HeroSection, WhatIDo, PortfolioGrid, ResumeTabs, Testimonials, Clients, Pricing, BlogList, ContactForm } from '../organisms'
+import { HeroSection, WhatIDo, PortfolioGrid, ResumeTabs, Testimonials, Clients, Pricing, BlogList, LoremSection, ContactForm } from '../organisms'
 
 export const PortfolioPage: React.FC = () => {
   return (
@@ -12,6 +12,7 @@ export const PortfolioPage: React.FC = () => {
       <Testimonials />
       <Clients />
       <Pricing />
+      <LoremSection />
       <BlogList />
       <ContactForm />
     </MainLayout>
