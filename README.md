@@ -1,73 +1,52 @@
-# React + TypeScript + Vite
+# Halo, Saya Adin Muhamad! 👋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🚀 Passionate Frontend Developer | Tech Enthusiast
 
-Currently, two official plugins are available:
+<p align="left">
+  <img src="https://komarev.com/ghpvc/?username=adinmuhamad&label=Profile%20views&color=0e75b6&style=flat" alt="Views" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tentang Saya
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Saya adalah seorang **Frontend Web Developer** yang berfokus pada pengembangan aplikasi web yang cepat, responsif, dan interaktif. Saat ini saya sedang aktif menggunakan **Vite** dan ekosistem JavaScript modern untuk membangun proyek-proyek web yang optimal.
 
-## Expanding the ESLint configuration
+* 🔭 Saat ini saya sedang mengerjakan: **Modern Web Application with Vite**
+* 🌱 Saya sedang memperdalam: **React.js, TypeScript, dan Performance Optimization**
+* 💬 Tanyakan saya tentang: **JavaScript, HTML/CSS, Git, dan UI/UX Dasar**
+* ⚡ Fakta unik: **Bisa ngoding berjam-jam asal ada kopi dan playlist lagu yang pas ☕🎵**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Teknologi & Tools
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Di bawah ini adalah beberapa teknologi dan alat yang biasa saya gunakan dalam membangun *project*:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| Bidang | Teknologi / Tools |
+| :--- | :--- |
+| **Frontend** | HTML5, CSS3, JavaScript (ES6+), Vite |
+| **Version Control** | Git, GitHub |
+| **Code Editor** | VS Code (Visual Studio Code) |
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📊 Statistik GitHub
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<p align="left">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=adinmuhamad&show_icons=true&theme=radial&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adinmuhamad&layout=compact&theme=radial&hide_border=true" />
+</p>
+
+---
+
+## 📬 Hubungi Saya
+
+Mari berteman, berdiskusi, atau berkolaborasi! Anda bisa menemui saya di:
+
+* **LinkedIn:** [linkedin.com/in/adinmuhamad](https://linkedin.com/in/adinmuhamad)
+* **Email:** `adinmuhamad@gmail.com`
+* **Instagram:** [@adinmuhamad](https://instagram.com/adinmuhamad)
+
+---
+<p align="center">Built with ❤️ and Vite by Adin Muhamad</p>
